@@ -21,8 +21,8 @@ print(f"""{gre}
 ------------------------------ """)
 
 while True:
-
-	print("  ")	x = input("[IP/DOMAIN]>>> ")
+	print("  ")
+        x = input("[IP/DOMAIN]>>> ")
 
 	ip = requests.get(f'http://ip-api.com/json/{x}?fields=status,message,continent,continentCode,country,countryCode,region,regionName,city,district,zip,lat,lon,timezone,offset,currency,isp,org,as,asname,reverse,mobile,proxy,hosting,query').json()
 
