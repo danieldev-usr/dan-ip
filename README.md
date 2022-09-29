@@ -1,9 +1,9 @@
 ## dan-ip
+#### Created by Wan 
 > Useless tool for your pentest!!!! 
 
 * python
 * requests
-* your mom
 
 ### Install termux 
 
@@ -15,7 +15,7 @@
 
 ``` python
 #Your pentest is happiest when using my tool
-#anima tua iudicabitur
+#if you find bugs contact me 
 print("IP/DOMAIN data extraction")
  ```
  
